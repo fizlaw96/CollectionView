@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFNetworking.h"
 
-@interface ViewController : UIViewController
+#import "SVProgressHUD.h"
+#import "UIImageView+AFNetworking.h"
 
+#import "ItemCell.h"
+
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>{
+  
+  NSArray *list;
+  
+}
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
