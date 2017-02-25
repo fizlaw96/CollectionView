@@ -34,6 +34,7 @@
 		A3173EFA1E61B8BE00AFCDA0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3173EF31E61B8BE00AFCDA0 /* SVProgressHUD.bundle */; };
 		A3173EFB1E61B8BE00AFCDA0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A3173EF51E61B8BE00AFCDA0 /* SVProgressHUD.m */; };
 		A3173EFC1E61B8BE00AFCDA0 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3173EF71E61B8BE00AFCDA0 /* SVRadialGradientLayer.m */; };
+		A3173F4A1E61C49300AFCDA0 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = A3173F491E61C49300AFCDA0 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		A3173EF51E61B8BE00AFCDA0 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		A3173EF61E61B8BE00AFCDA0 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		A3173EF71E61B8BE00AFCDA0 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		A3173F491E61C49300AFCDA0 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		A3173E771E61B3C400AFCDA0 = {
 			isa = PBXGroup;
 			children = (
+				A3173F491E61C49300AFCDA0 /* Readme.md */,
 				A3173E821E61B3C400AFCDA0 /* CollectionView */,
 				A3173E811E61B3C400AFCDA0 /* Products */,
 			);
@@ -301,6 +304,7 @@
 				A3173ECA1E61B8AA00AFCDA0 /* AFNetworkReachabilityManager.m in Sources */,
 				A3173E851E61B3C400AFCDA0 /* main.m in Sources */,
 				A3173EE61E61B8B400AFCDA0 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A3173F4A1E61C49300AFCDA0 /* Readme.md in Sources */,
 				A3173EE91E61B8B400AFCDA0 /* UIImageView+AFNetworking.m in Sources */,
 				A3173EE81E61B8B400AFCDA0 /* UIButton+AFNetworking.m in Sources */,
 				A3173EEB1E61B8B400AFCDA0 /* UIRefreshControl+AFNetworking.m in Sources */,
@@ -468,6 +472,7 @@
 				A3173E991E61B3C400AFCDA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
